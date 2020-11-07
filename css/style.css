@@ -80,14 +80,14 @@ nav ul li a:hover{
 }
 
 .container {
-    margin: 40px 50px;
+    margin: 40px 70px;
 }
 
 .organisasi {
     width: 30rem;
     margin: 0px;
     padding: 0px;
-    margin-left: 0px;
+    margin-left: 10rem;
 }
 
 .more {
