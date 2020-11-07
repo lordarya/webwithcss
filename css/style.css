@@ -5,7 +5,7 @@
 
 .top-nav {
     padding: 30;
-    background-color: rgb(231, 17, 17);
+    background-color: rgb(204, 9, 9);
     position: fixed;
     top: 0;
     width: 100%;
@@ -21,7 +21,7 @@ nav ul li a{
     float: right;
     text-decoration: none;
     color: white;
-
+    font-weight: 400;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -39,4 +39,79 @@ nav ul li a:hover{
 
 .nav-item {
     margin-right: 10px;
+}
+*,*::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+    font-family: 'Product Sans';
+}
+.wrapper { 
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1980px;
+}
+
+.wrapper::after ,.wrapper::before,
+.row::before, .row::after{
+    display: table;
+    content: "";
+}
+.row::after,.wrapper::after{
+    clear: both;
+}
+[class*='col-']{
+    float: left;
+    width: 100%;
+}
+@media screen and (min-width: 640px) {
+    .col-md-1{width: 8.33%}
+    .col-md-2{width: 16.66%}
+    .col-md-3{width: 25%}
+    .col-md-4{width: 33.33%}
+    .col-md-5{width: 41.66%}
+    .col-md-6{width: 50%}
+    .col-md-7{width: 56.93%}
+    .col-md-8{width: 66.66%}
+    .col-md-9{width: 75%}
+    .col-md-10{width: 83.33%}
+    .col-md-11{width: 91.66%}
+    .col-md-12{width: 100%}
+}
+
+.container {
+    margin: 40px 50px;
+}
+
+.organisasi {
+    width: 30rem;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 0px;
+}
+
+.more {
+    margin-top: 3rem;
+    margin-left: 22rem;
+    padding: 1rem;
+    background-color: transparent;
+    font-family: sans-serif;
+    border-color: rgb(189, 42, 42);
+    border-radius: 10px;
+    outline-color: transparent;
+}
+p {
+    margin-top: 1rem;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+.more:hover {
+    background-color: rgb(189, 42, 42);
+    color: white;
+    transition: 1s;
+    animation-duration: 1s;
 }
