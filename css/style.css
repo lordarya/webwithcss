@@ -5,7 +5,7 @@
 
 .top-nav {
     padding: 30;
-    background-color: rgb(204, 9, 9);
+    background-color:#c23616;
     position: fixed;
     top: 0;
     width: 100%;
@@ -28,6 +28,7 @@ nav ul li a{
 
 .logo {
     float: left;
+    font-size: 18px;
     
 }
 .logo:hover {
@@ -39,9 +40,8 @@ nav ul li a:hover{
     
 }
 .nav-item:hover{
-    background-color: rgb(189, 42, 42);
-    transition: 1s;
-    animation-duration: 1s;
+    font-weight: 600;
+    animation-duration: 0.5s;
 }
 
 .nav-item {
@@ -104,7 +104,7 @@ nav ul li a:hover{
     padding: 1rem;
     background-color: transparent;
     font-family: sans-serif;
-    border-color: rgb(189, 42, 42);
+    border-color: #c23616;
     border-radius: 10px;
     outline-color: transparent;
     font-weight: 600;
@@ -120,7 +120,7 @@ h1 {
 }
 
 .more:hover {
-    background-color: rgb(189, 42, 42);
+    background-color:#c23616;
     color: white;
     transition: 1s;
     animation-duration: 1s;
@@ -188,7 +188,7 @@ h2 {
 .program {
     text-align: center;
     padding: 10px;
-    background-color: rgb(189, 42, 42);
+    background-color: #c23616;
     border-radius: 10px;
     color : rgb(255, 255, 255);
 }
@@ -233,7 +233,7 @@ h2 {
 }
 
 .card:hover {
-    background-color: rgb(204, 9, 9);
+    background-color: #c23616;
     color : white;
     transition: 1s;     
     position: initial;
@@ -295,13 +295,13 @@ h2 {
     background-color: transparent;
     padding: 10px;
     border-radius: 10px;
-    border-color: rgb(204, 9, 9);
+    border-color: #c23616;
     font-weight: 600;
     color: rgb(65,65,65);
 }
 
 .button-news:hover {
-    background-color: rgb(204, 9, 9);
+    background-color: #c23616;
     transition: 1s;
     animation-duration: 1s;
     color: white;
