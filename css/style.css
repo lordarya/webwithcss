@@ -124,6 +124,7 @@ h1 {
     color: white;
     transition: 1s;
     animation-duration: 1s;
+    
 }
 
 .bg-footer {
@@ -232,7 +233,7 @@ h2 {
 }
 
 .card:hover {
-    background-color: red;
+    background-color: rgb(204, 9, 9);
     color : white;
     transition: 1s;     
     position: initial;
