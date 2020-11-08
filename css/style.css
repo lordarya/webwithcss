@@ -9,6 +9,7 @@
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 100;
 }
 
 nav ul {
@@ -87,6 +88,7 @@ nav ul li a:hover{
 
 .container {
     margin: 40px 70px;
+    margin-bottom: -10rem;
 }
 
 .organisasi {
@@ -105,6 +107,7 @@ nav ul li a:hover{
     border-color: rgb(189, 42, 42);
     border-radius: 10px;
     outline-color: transparent;
+    font-weight: 600;
 }
 p {
     margin-top: 1rem;
@@ -191,9 +194,10 @@ h2 {
 
 .card {
     line-height: 15px;
-    margin: 0px;
+    margin-top: -10rem;
     clear: both;
     text-align: center;
+    border-radius: 0.5rem;
     padding: 10px 50px;
     text-decoration: none;
     color: rgb(65,65,65);
@@ -201,15 +205,26 @@ h2 {
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .proker {
-    margin : 0px;
+    margin-top : -10rem;
     display: block;
 }
 
 .md-4 {
-    margin: 4rem;
+    margin: 3rem;
+}
+.md-3 {
+    margin: 3rem;
+}
+
+.md-2 {
+    margin-left: 3rem;
 }
 
 .card-image {
+    text-align: center;
+    align-content: center;
+    align-self: center;
+    align-items: center;
     margin: 0px;
     padding: 0px;
     width: 250px;
@@ -228,4 +243,69 @@ h2 {
 
 .card-header {
     color: rgb(65, 65, 65);
+}
+
+.img-author {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    margin-top: 0rem;
+    margin-left : 1rem;
+}
+
+.card-news {
+    margin-left: 0px;
+    border-radius: 0.5rem;
+    color: rgb(65, 65, 65);
+    padding-top: 10px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.image-news {
+    width: 321px;
+    margin-top: -0.4rem;
+    border-top-left-radius: 0.5rem;
+
+
+}
+
+.berita {
+    margin-left: 4rem;
+}
+
+.header-news {
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+.name {
+    margin-left: 1rem;
+    margin-top: -2rem;
+}
+
+.news-item {
+    margin : 1rem 1rem;
+}
+
+.button-news {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: rgb(204, 9, 9);
+    font-weight: 600;
+    color: rgb(65,65,65);
+}
+
+.button-news:hover {
+    background-color: rgb(204, 9, 9);
+    transition: 1s;
+    animation-duration: 1s;
+    color: white;
+}
+
+.header-news:hover {
+    color : rgb(155, 155, 26);
 }
