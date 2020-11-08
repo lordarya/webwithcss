@@ -1,6 +1,6 @@
 * {
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
 }
 
 .top-nav {
@@ -27,14 +27,20 @@ nav ul li a{
 
 .logo {
     float: left;
+    
+}
+.logo:hover {
+    font-weight: 800;
 }
 
 nav ul li a:hover{
     color: yellow;
-    font-weight: 600;
+    
 }
 .nav-item:hover{
     background-color: rgb(189, 42, 42);
+    transition: 1s;
+    animation-duration: 1s;
 }
 
 .nav-item {
@@ -156,4 +162,70 @@ h2 {
 .copyright {
     margin-top: 1.5rem;
     text-align : center;
+}
+
+.link:hover {
+    color: rgb(39, 39, 39) ;
+    font-weight: 500;
+}
+
+.header {
+    overflow: hidden;
+    clear: both;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 28px;
+    border-radius: 30px;
+    padding: 1px 24px;
+    margin-bottom: 20px;
+    margin-left: 33.4rem;
+  
+}
+.program {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(189, 42, 42);
+    border-radius: 10px;
+    color : rgb(255, 255, 255);
+}
+
+.card {
+    line-height: 15px;
+    margin: 0px;
+    clear: both;
+    text-align: center;
+    padding: 10px 50px;
+    text-decoration: none;
+    color: rgb(65,65,65);
+    background-color:  rgb(255, 255, 255);
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.proker {
+    margin : 0px;
+    display: block;
+}
+
+.md-4 {
+    margin: 4rem;
+}
+
+.card-image {
+    margin: 0px;
+    padding: 0px;
+    width: 250px;
+    height: 250px;
+}
+
+.card:hover {
+    background-color: red;
+    color : white;
+    transition: 1s;     
+    position: initial;
+    animation-duration: 1s;
+    transform: translateY(-10px);
+}
+  
+
+.card-header {
+    color: rgb(65, 65, 65);
 }
