@@ -6,7 +6,6 @@
 .top-nav {
     padding: 30;
     background-color:#c23616;
-    position: sticky;
     top: 0;
     width: 100%;
     z-index: 100;
@@ -466,3 +465,22 @@ h2 {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+/* Page content */
+.content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    transition: 1s;
+    animation-duration: 1s;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
